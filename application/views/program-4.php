@@ -147,7 +147,7 @@
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="<?php echo base_url()?>assets/index.html"><img alt="" src="<?php echo base_url()?>assets/images/margo.png"></a>
+            <a class="navbar-brand" href="<?php echo base_url()?>assets/index.html"><img alt="" src="<?php echo base_url()?>assets/images/logo.png"></a>
           </div>
           <div class="navbar-collapse collapse">
             <!-- Stat Search -->
@@ -647,7 +647,7 @@
           <!-- Start Contact Widget -->
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
-              <h4><img src="<?php echo base_url()?>assets/images/footer-margo.png" class="img-responsive" alt="Footer Logo" /></h4>
+              <h4><img src="<?php echo base_url()?>assets/images/footer-logo.png" height="142" width="142" class="img-responsive" alt="Footer Logo" /></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               <ul>
                 <li><span>Phone Number:</span> +01 234 567 890</li>

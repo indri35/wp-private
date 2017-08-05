@@ -149,7 +149,7 @@
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html"><img alt="" src="<?php echo base_url()?>assets/images/margo.png"></a>
+            <a class="navbar-brand" href="index.html"><img alt="" src="<?php echo base_url()?>assets/images/logo.png"></a>
           </div>
           <div class="navbar-collapse collapse">
             <!-- Stat Search -->
@@ -238,7 +238,7 @@
           <div class="item active">
             <img class="img-responsive" src="<?php echo base_url()?>assets/images/slider/bg1.jpg" alt="slider">
             <div class="slider-content">
-              <div class="col-md-12 text-center">
+              <div class="col-md-12 text-center" >
                 <h2 class="animated2">
               <span>Welcome to <strong>ESC</strong></span>
           </h2>
@@ -309,11 +309,12 @@
           <div class="col-md-3 col-sm-6 service-box service-center">
             <div class="service-boxed">
               <div class="service-icon" style="margin-top:-25px;">
-                <i class="fa fa-magic icon-medium-effect icon-effect-2"></i>
+                <i class="fa fa-graduation-cap icon-medium-effect icon-effect-1"></i>
               </div>
               <div class="service-content">
-                <h4>High Quality Theme</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h4>Reguler</h4>
+                <p>Untuk TK/PAUD, SD, SMP, SMA <br/><b> Mulai dari RP 55.000* </b></p>
+                <a href="<?php echo base_url()?>Welcome/program">see detail</a>
               </div>
             </div>
           </div>
@@ -323,11 +324,12 @@
           <div class="col-md-3 col-sm-6 service-box service-center">
             <div class="service-boxed">
               <div class="service-icon" style="margin-top:-25px;">
-                <i class="fa fa-eye icon-medium-effect icon-effect-2"></i>
+                <i class="fa fa-graduation-cap icon-medium-effect icon-effect-1"></i>
               </div>
               <div class="service-content">
-                <h4>Retina Display Ready</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h4>Unggulan</h4>
+                <p>Untuk TK/PAUD, SD, SMP, SMA <br/><b> Mulai dari RP 1.520.000* </b></p>
+                <a href="<?php echo base_url()?>Welcome/program2">see detail</a>
               </div>
             </div>
           </div>
@@ -337,11 +339,12 @@
           <div class="col-md-3 col-sm-6 service-box service-center">
             <div class="service-boxed">
               <div class="service-icon" style="margin-top:-25px;">
-                <i class="fa fa-code icon-medium-effect icon-effect-1"></i>
+                <i class="fa fa-graduation-cap icon-medium-effect icon-effect-1"></i>
               </div>
               <div class="service-content">
-                <h4>Clean Modern Code</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h4>Intensif UN/SBMPTN</h4>
+                <p>Untuk UN & SBMPTN <br/><b> Mulai dari RP 2.390.000 </b></p>
+                <a href="<?php echo base_url()?>Welcome/program3">see detail</a>
               </div>
             </div>
           </div>
@@ -351,11 +354,12 @@
           <div class="col-md-3 col-sm-6 service-box service-center">
             <div class="service-boxed">
               <div class="service-icon" style="margin-top:-25px;">
-                <i class="fa fa-rocket icon-medium-effect icon-effect-1"></i>
+                <i class="fa fa-graduation-cap icon-medium-effect icon-effect-1"></i>
               </div>
               <div class="service-content">
-                <h4>Fast & Light Theme</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h4>Eksklusif (1 & 2 semester)</h4>
+                <p>Untuk SD, SMP, SMA <br/><b> Mulai dari RP 7.690.000* </b></p>
+                <a href="<?php echo base_url()?>Welcome/program4">see detail</a>
               </div>
             </div>
           </div>
@@ -363,236 +367,6 @@
 
         </div>
         <!-- End Services Icons -->
-
-        <!-- Divider -->
-        <div class="hr1 margin-top"></div>
-
-
-        <!-- Start Recent Projects Carousel -->
-        <div class="recent-projects">
-          <h4 class="title"><span>Recent Gallery</span></h4>
-          <div class="projects-carousel touch-carousel">
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  
-                    <div class="thumb-overlay"><i class="fa fa-play"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/1.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Website</span>
-                    <span>Drawing</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a class="lightbox" title="This is an image title" href="images/portfolio-big-01.jpg">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/2.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Logo</span>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/3.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Drawing</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/4.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Website</span>
-                    <span>Ilustration</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a class="lightbox" title="This is an image title" href="images/portfolio-big-02.jpg">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/5.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Logo</span>
-                    <span>Drawing</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/6.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a class="lightbox" title="This is an image title" href="images/portfolio-big-03.jpg">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/7.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Website</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/8.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Ilustration</span>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/9.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Ilustration</span>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/10.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Ilustration</span>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/11.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Ilustration</span>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item item">
-              <div class="portfolio-border">
-                <div class="portfolio-thumb">
-                  <a href="#">
-                    <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                    <img alt="" src="<?php echo base_url()?>assets/images/portfolio-1/12.png" />
-                  </a>
-                </div>
-                <div class="portfolio-details">
-                  <a href="#">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <span>Ilustration</span>
-                    <span>Animation</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <!-- End Recent Projects Carousel -->
-
-        <!-- Divider -->
-        <div class="hr1 margin-60"></div>
-
 
         <div class="row">
 
@@ -714,7 +488,7 @@
             <div class="our-clients">
 
               <!-- Classic Heading -->
-              <h4 class="classic-title"><span>Our Clients</span></h4>
+              <h4 class="classic-title"><span>Our Alumni</span></h4>
 
               <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="4">
 
@@ -763,8 +537,8 @@
             <!--End Clients Carousel-->
           </div>
           <div class="col-md-3">
-            <h4 class="classic-title"><span>Partners We Work With</span></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat. </p>
+            <h4 class="classic-title"><span>Our Tutor</span></h4>
+            <p>Lembaga pendidikan ESC dilengkapi dengan fasilitas tutor terbaik dan terpecaya yang berasal dari mahasiswa/i/alumni PTN terbaik (ITB, UNPAD, dan UPI) dan PTS terbaik di Kota Bandung</p>
           </div>
         </div>
 
@@ -912,7 +686,7 @@
           <!-- Start Contact Widget -->
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
-              <h4><img src="<?php echo base_url()?>assets/images/footer-margo.png" class="img-responsive" alt="Footer Logo" /></h4>
+              <h4><img src="<?php echo base_url()?>assets/images/footer-logo.png" height="142" width="142" class="img-responsive" alt="Footer Logo" /></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               <ul>
                 <li><span>Phone Number:</span> +01 234 567 890</li>
