@@ -1,83 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company-HTML Bootstrap theme</title>
 
-    <!-- Bootstrap -->
-    <link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/animate.css">
-	<link href="<?php echo base_url()?>assets/css/prettyPhoto.css" rel="stylesheet">
-	<link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet" />	
-    <!-- =======================================================
-        Theme Name: Company
-        Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
-  </head>
-  <body>
-	<header>		
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="navigation">
-				<div class="container">					
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<div class="navbar-brand">
-                            <a href="<?php echo base_url()?>Welcome/index"><h1><span>Com</span>pany</h1></a>
-                        </div>
-                    </div>
-                    
-                    <div class="navbar-collapse collapse">                          
-                        <div class="menu">
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation"><a href="<?php echo base_url()?>Welcome/index">Home</a></li>
-                                <li role="presentation"><a href="<?php echo base_url()?>Welcome/about">About Us</a></li>
-                                <li role="presentation"><a href="<?php echo base_url()?>Welcome/program" class="active">Program</a></li>                               
-                                <li role="presentation"><a href="<?php echo base_url()?>Welcome/registration">Registration</a></li>
-                                <li role="presentation"><a href="<?php echo base_url()?>Welcome/contact.html">Contact</a></li>                      
-                            </ul>
-                        </div>
-					</div>						
-				</div>
-			</div>	
-		</nav>		
-	</header>
-	
-	<div id="breadcrumb">
-		<div class="container">	
-			<div class="breadcrumb">							
-				<li><a href="<?php echo base_url()?>Welcome/index">Home</a></li>
-				<li>Program</li>			
-			</div>		
-		</div>	
-	</div>
-	
-	<section id="portfolio">	
+<head>
+
+  <!-- Basic -->
+  <title>ESC | Program Intensif UN/SBMPTN</title>
+
+  <!-- Define Charset -->
+  <meta charset="utf-8">
+
+  <!-- Responsive etatag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Page Description and Author -->
+  <meta name="description" content="Margo - Responsive HTML5 Template">
+  <meta name="author" content="iThemesLab">
+
+
+  <!-- Bootstrap CSS  -->
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/asset/css/bootstrap.min.css" type="text/css" media="screen">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/font-awesome.min.css" type="text/css" media="screen">
+
+  <!-- Slicknav -->
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/slicknav.css" media="screen">
+
+  <!-- Margo CSS Styles  -->
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css" media="screen">
+
+  <!-- Responsive CSS Styles  -->
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/responsive.css" media="screen">
+
+  <!-- Color CSS Styles  -->
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/red.css" title="red" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/jade.css" title="jade" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/blue.css" title="blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/beige.css" title="beige" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/cyan.css" title="cyan" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/green.css" title="green" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/orange.css" title="orange" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/peach.css" title="peach" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/pink.css" title="pink" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/purple.css" title="purple" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/sky-blue.css" title="sky-blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/colors/yellow.css" title="yellow" media="screen" />
+
+
+  <!-- Margo JS  -->
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/modernizrr.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/asset/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.appear.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/count-to.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.textillate.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.easypiechart.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.parallax.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.slicknav.js"></script>
+
+  <!--[if IE 8]><script src="<?php echo base_url()?>assets/http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="<?php echo base_url()?>assets/http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Container -->
+  <div id="container">
+
+    <!-- Start Header -->
+    <div class="hidden-header"></div>
+    <header class="clearfix">
+
+      <!-- Start Top Bar -->
+      <div class="top-bar">
         <div class="container">
-            <div class="center">
-               <p>Program Belajar</p>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Start Contact Info -->
+              <ul class="contact-details">
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-map-marker"></i> Jl. Rancakendal Luhur No 49, Bandung</a>
+                </li>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-envelope-o"></i> info@yourcompany.com</a>
+                </li>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-phone"></i> +12 345 678 000</a>
+                </li>
+              </ul>
+              <!-- End Contact Info -->
             </div>
+            <div class="col-md-6">
+              <!-- Start Social Links -->
+              <ul class="social-list">
+                <li>
+                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="<?php echo base_url()?>assets/#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="<?php echo base_url()?>assets/#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="<?php echo base_url()?>assets/#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="<?php echo base_url()?>assets/#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="<?php echo base_url()?>assets/#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="<?php echo base_url()?>assets/#"><i class="fa fa-flickr"></i></a>
+                </li>
+                <li>
+                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="<?php echo base_url()?>assets/#"><i class="fa fa-tumblr"></i></a>
+                </li>
+                <li>
+                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="<?php echo base_url()?>assets/#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="<?php echo base_url()?>assets/#"><i class="fa fa-vimeo-square"></i></a>
+                </li>
+                <li>
+                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="<?php echo base_url()?>assets/#"><i class="fa fa-skype"></i></a>
+                </li>
+              </ul>
+              <!-- End Social Links -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Top Bar -->
 
-             <div class="text-center">
-                <a class="btn btn-success" href="<?php echo base_url()?>Welcome/program">Reguler</a>&nbsp;&nbsp;&nbsp;
-                <a class="btn btn-success" href="<?php echo base_url()?>Welcome/program2">Unggulan</a>&nbsp;&nbsp;&nbsp;
-                <a class="btn btn-success active" href="<?php echo base_url()?>Welcome/program3">Intensif UN/SBMPTN</a>&nbsp;&nbsp;&nbsp;
-                <a class="btn btn-success" href="<?php echo base_url()?>Welcome/program4">Eksklusif (1 semester & 2 semester)</a><br/><br/>
+      <!-- Start Header ( Logo & Naviagtion ) -->
+      <div class="navbar navbar-default navbar-top">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- Stat Toggle Nav Link For Mobiles -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="fa fa-bars"></i>
+            </button>
+            <!-- End Toggle Nav Link For Mobiles -->
+            <a class="navbar-brand" href="<?php echo base_url()?>assets/index.html"><img alt="" src="<?php echo base_url()?>assets/images/margo.png"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <!-- Stat Search -->
+            <div class="search-side">
+              <a class="show-search"><i class="fa fa-search"></i></a>
+              <div class="search-form">
+                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
+                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
+                </form>
+              </div>
             </div>
-		</div>
-		<div class="container">
-            <div class="">
-                <div class="col-md-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                   <table border="1" cellpadding="0" cellspacing="0" style="width:666px">
+            <!-- End Search -->
+            <!-- Start Navigation List -->
+            <!-- Start Navigation List -->
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="<?php echo base_url()?>Welcome/index">Home</a>
+              </li>
+              <li>
+                <a href="<?php echo base_url()?>Welcome/about">About</a>
+              </li>
+              <li>
+                <a class="active" href="#">Program</a>
+                <ul class="dropdown">
+                  <li><a href="<?php echo base_url()?>Welcome/program">Reguler</a></li>
+                  <li><a href="<?php echo base_url()?>Welcome/program2">Unggulan</a></li>
+                  <li><a href="<?php echo base_url()?>Welcome/program3">Intensif UN/SBMPTN</a></li>
+                  <li><a href="<?php echo base_url()?>Welcome/program4">Eksklusif (1 semester & 2 semester)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="portfolio-3.html">Registration</a>
+              </li>
+              <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
+            </ul>
+            <!-- End Navigation List -->
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="wpb-mobile-menu">
+          <li>
+                <a href="<?php echo base_url()?>Welcome/index">Home</a>
+              </li>
+              <li>
+                <a href="<?php echo base_url()?>Welcome/about">About</a>
+              </li>
+              <li>
+                <a class="active" href="<?php echo base_url()?>Welcome/program">Program</a>
+                <ul class="dropdown">
+                  <li><a href="<?php echo base_url()?>Welcome/program">Reguler</a></li>
+                  <li><a href="<?php echo base_url()?>Welcome/program2">Unggulan</a></li>
+                  <li><a href="<?php echo base_url()?>Welcome/program3">Intensif UN/SBMPTN</a></li>
+                  <li><a href="<?php echo base_url()?>Welcome/program4">Eksklusif (1 semester & 2 semester)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="portfolio-3.html">Registration</a>
+              </li>
+              <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </div>
+      <!-- End Header ( Logo & Naviagtion ) -->
+
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start Page Banner -->
+    <div class="page-banner" style="padding:40px 0; background: url(images/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Program Intensif UN/SBMPTN</h2>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="<?php echo base_url()?>assets/#">Home</a></li>
+              <li>Program Intensif UN/SBMPTN</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page Banner -->
+
+
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+              <!-- Classic Heading -->
+              <h4 class="classic-title"><span>Program Intensif UN/SBMPTN</span></h4>
+
+              <!-- Some Text -->
+              <table border="1" cellpadding="0" cellspacing="0" style="width:666px">
                         <tbody>
                             <tr>
                                 <td rowspan="3" style="width:132px">
@@ -209,57 +383,302 @@
                         4. Laporan perkembangan akademik siswa secara berkala<br/>
                         5. Nilai evaluasi secara berkala<br/>
                     </p>
-
-                </div>
             </div>
-        </div>
-    </section><!--/#portfolio-item-->
-	
 
-	<footer>
-		<div class="footer">
-			<div class="container">
-				<div class="social-icon">
-					<div class="col-md-4">
-						<ul class="social-network">
-							<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
-						</ul>	
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-md-offset-4">
-					<div class="copyright">
-						&copy; Company Theme. All Rights Reserved.
-                        <div class="credits">
-                            <!-- 
-                                All the links in the footer should remain intact. 
-                                You can delete the links only if you purchased the pro version.
-                                Licensing information: https://bootstrapmade.com/license/
-                                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
-                            -->
-                            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-					</div>
-				</div>						
-			</div>
-			<div class="pull-right">
-				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
-			</div>
-		</div>
-	</footer>
-	
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="<?php echo base_url()?>assets/js/jquery-2.1.1.min.js"></script>	
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
-	<script src="<?php echo base_url()?>assets/js/jquery.prettyPhoto.js"></script>
-    <script src="<?php echo base_url()?>assets/js/jquery.isotope.min.js"></script>  
-	<script src="<?php echo base_url()?>assets/js/wow.min.js"></script>
-	<script src="<?php echo base_url()?>assets/js/functions.js"></script>
-    
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="row footer-widgets">
+
+          <!-- Start Subscribe & Social Links Widget -->
+          <div class="col-md-3">
+            <div class="footer-widget mail-subscribe-widget">
+              <h4>Get in touch<span class="head-line"></span></h4>
+              <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
+              <form class="subscribe">
+                <input type="text" placeholder="mail@example.com">
+                <input type="submit" class="btn-system" value="Send">
+              </form>
+            </div>
+            <div class="footer-widget social-widget">
+              <h4>Follow Us<span class="head-line"></span></h4>
+              <ul class="social-icons">
+                <li>
+                  <a class="facebook" href="<?php echo base_url()?>assets/#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a class="twitter" href="<?php echo base_url()?>assets/#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="google" href="<?php echo base_url()?>assets/#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a class="dribbble" href="<?php echo base_url()?>assets/#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a class="linkdin" href="<?php echo base_url()?>assets/#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a class="flickr" href="<?php echo base_url()?>assets/#"><i class="fa fa-flickr"></i></a>
+                </li>
+                <li>
+                  <a class="tumblr" href="<?php echo base_url()?>assets/#"><i class="fa fa-tumblr"></i></a>
+                </li>
+                <li>
+                  <a class="instgram" href="<?php echo base_url()?>assets/#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="vimeo" href="<?php echo base_url()?>assets/#"><i class="fa fa-vimeo-square"></i></a>
+                </li>
+                <li>
+                  <a class="skype" href="<?php echo base_url()?>assets/#"><i class="fa fa-skype"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Subscribe & Social Links Widget -->
+
+
+          <!-- Start Twitter Widget -->
+          <div class="col-md-3">
+            <div class="footer-widget twitter-widget">
+              <h4>Twitter Feed<span class="head-line"></span></h4>
+              <ul>
+                <li>
+                  <p><a href="<?php echo base_url()?>assets/#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
+                  <span>28 February 2014</span>
+                </li>
+                <li>
+                  <p><a href="<?php echo base_url()?>assets/#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
+                  <span>26 February 2014</span>
+                </li>
+                <li>
+                  <p><a href="<?php echo base_url()?>assets/#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
+                  <span>28 February 2014</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Twitter Widget -->
+
+
+          <!-- Start Flickr Widget -->
+          <div class="col-md-3">
+            <div class="footer-widget flickr-widget">
+              <h4>Flicker Feed<span class="head-line"></span></h4>
+              <ul class="flickr-list">
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-01.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-01.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-02.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-02.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-03.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-03.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-04.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-04.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-05.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-05.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-06.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-06.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-07.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-07.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-08.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-08.jpg">
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo base_url()?>assets/images/flickr-09.jpg" class="lightbox">
+                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-09.jpg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Flickr Widget -->
+
+
+          <!-- Start Contact Widget -->
+          <div class="col-md-3">
+            <div class="footer-widget contact-widget">
+              <h4><img src="<?php echo base_url()?>assets/images/footer-margo.png" class="img-responsive" alt="Footer Logo" /></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <ul>
+                <li><span>Phone Number:</span> +01 234 567 890</li>
+                <li><span>Email:</span> company@company.com</li>
+                <li><span>Website:</span> www.yourdomain.com</li>
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Contact Widget -->
+
+
+        </div>
+        <!-- .row -->
+
+        <!-- Start Copyright -->
+        <div class="copyright-section">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2014 Margo - All Rights Reserved</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="footer-nav">
+                <li><a href="<?php echo base_url()?>assets/#">Sitemap</a></li>
+                <li><a href="<?php echo base_url()?>assets/#">Privacy Policy</a></li>
+                <li><a href="<?php echo base_url()?>assets/#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Copyright -->
+
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+  </div>
+  <!-- End Container -->
+
+  <!-- Go To Top Link -->
+  <a href="<?php echo base_url()?>assets/#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Style Switcher -->
+  <div class="switcher-box">
+    <a class="open-switcher show-switcher"><i class="fa fa-cog fa-2x"></i></a>
+    <h4>Style Switcher</h4>
+    <span>12 Predefined Color Skins</span>
+    <ul class="colors-list">
+      <li>
+        <a onClick="setActiveStyleSheet('blue'); return false;" title="Blue" class="blue"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('sky-blue'); return false;" title="Sky Blue" class="sky-blue"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('cyan'); return false;" title="Cyan" class="cyan"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('jade'); return false;" title="Jade" class="jade"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('green'); return false;" title="Green" class="green"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('purple'); return false;" title="Purple" class="purple"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('pink'); return false;" title="Pink" class="pink"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('red'); return false;" title="Red" class="red"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('orange'); return false;" title="Orange" class="orange"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('yellow'); return false;" title="Yellow" class="yellow"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('peach'); return false;" title="Peach" class="peach"></a>
+      </li>
+      <li>
+        <a onClick="setActiveStyleSheet('beige'); return false;" title="Biege" class="beige"></a>
+      </li>
+    </ul>
+    <span>Top Bar Color</span>
+    <select id="topbar-style" class="topbar-style">
+      <option value="1">Light (Default)</option>
+      <option value="2">Dark</option>
+      <option value="3">Color</option>
+    </select>
+    <span>Layout Style</span>
+    <select id="layout-style" class="layout-style">
+      <option value="1">Wide</option>
+      <option value="2">Boxed</option>
+    </select>
+    <span>Patterns for Boxed Version</span>
+    <ul class="bg-list">
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg1"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg2"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg3"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg4"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg5"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg6"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg7"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg8"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg9"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg10"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg11"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg12"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg13"></a>
+      </li>
+      <li>
+        <a href="<?php echo base_url()?>assets/#" class="bg14"></a>
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>
+
 </body>
+
 </html>

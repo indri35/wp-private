@@ -35,6 +35,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('program-4');
 	}
 
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
+
 	public function registration()
 	{
 		$this->load->view('registration');
