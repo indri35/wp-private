@@ -85,50 +85,26 @@
       <div class="top-bar">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
               <!-- Start Contact Info -->
               <ul class="contact-details">
-                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-map-marker"></i> Jl. Rancakendal Luhur No 49, Bandung</a>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-map-marker"></i>  Jl. Rancakendal Luhur No 49, Bandung</a>
                 </li>
-                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-envelope-o"></i> info@yourcompany.com</a>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-envelope-o"></i> educationsolutionscenter@gmail.com</a>
                 </li>
-                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-phone"></i> +12 345 678 000</a>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-phone"></i> +62 858 9412 8283</a>
                 </li>
               </ul>
               <!-- End Contact Info -->
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <!-- Start Social Links -->
               <ul class="social-list">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="<?php echo base_url()?>assets/#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="https://web.facebook.com/educationsolutioncentre"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="<?php echo base_url()?>assets/#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="<?php echo base_url()?>assets/#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="<?php echo base_url()?>assets/#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="<?php echo base_url()?>assets/#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="<?php echo base_url()?>assets/#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="<?php echo base_url()?>assets/#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="<?php echo base_url()?>assets/#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="<?php echo base_url()?>assets/#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="<?php echo base_url()?>assets/#"><i class="fa fa-skype"></i></a>
+                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="https://www.instagram.com/educationsolutioncenter"><i class="fa fa-instagram"></i></a>
                 </li>
               </ul>
               <!-- End Social Links -->
@@ -505,174 +481,20 @@
     <!-- Start Footer -->
     <footer>
       <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
-              <form class="subscribe">
-                <input type="text" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" href="<?php echo base_url()?>assets/#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="<?php echo base_url()?>assets/#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google" href="<?php echo base_url()?>assets/#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="dribbble" href="<?php echo base_url()?>assets/#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin" href="<?php echo base_url()?>assets/#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr" href="<?php echo base_url()?>assets/#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr" href="<?php echo base_url()?>assets/#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram" href="<?php echo base_url()?>assets/#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo" href="<?php echo base_url()?>assets/#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="<?php echo base_url()?>assets/#"><i class="fa fa-skype"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-
-          <!-- Start Twitter Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget twitter-widget">
-              <h4>Twitter Feed<span class="head-line"></span></h4>
-              <ul>
-                <li>
-                  <p><a href="<?php echo base_url()?>assets/#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                  <span>28 February 2014</span>
-                </li>
-                <li>
-                  <p><a href="<?php echo base_url()?>assets/#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
-                  <span>26 February 2014</span>
-                </li>
-                <li>
-                  <p><a href="<?php echo base_url()?>assets/#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                  <span>28 February 2014</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Twitter Widget -->
-
-
-          <!-- Start Flickr Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget flickr-widget">
-              <h4>Flicker Feed<span class="head-line"></span></h4>
-              <ul class="flickr-list">
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-01.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-01.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-02.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-02.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-03.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-03.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-04.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-04.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-05.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-05.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-06.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-06.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-07.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-07.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-08.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-08.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-09.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-09.jpg">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Flickr Widget -->
-
-
-          <!-- Start Contact Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget contact-widget">
-              <h4><img src="<?php echo base_url()?>assets/images/footer-logo.png" height="142" width="142" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              <ul>
-                <li><span>Phone Number:</span> +01 234 567 890</li>
-                <li><span>Email:</span> company@company.com</li>
-                <li><span>Website:</span> www.yourdomain.com</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
 
         <!-- Start Copyright -->
         <div class="copyright-section">
           <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2014 Margo - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="<?php echo base_url()?>assets/#">Sitemap</a></li>
-                <li><a href="<?php echo base_url()?>assets/#">Privacy Policy</a></li>
-                <li><a href="<?php echo base_url()?>assets/#">Contact</a></li>
-              </ul>
+            <div class="col-md-12">
+              <center><p>&copy; 2017 EDUCATION SOLUTION CENTER - ALL RIGHTS RESERVED</a> </p></center>
             </div>
           </div>
         </div>
         <!-- End Copyright -->
+
+      </div>
+    </footer>
+    <!-- End Footer -->
 
       </div>
     </footer>

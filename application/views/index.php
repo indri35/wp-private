@@ -87,50 +87,26 @@
       <div class="top-bar">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
               <!-- Start Contact Info -->
               <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Jl. Rancakendal Luhur No 49, Bandung</a>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-map-marker"></i>  Jl. Rancakendal Luhur No 49, Bandung</a>
                 </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> info@yourcompany.com</a>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-envelope-o"></i> educationsolutionscenter@gmail.com</a>
                 </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +12 345 678 000</a>
+                <li><a href="<?php echo base_url()?>assets/#"><i class="fa fa-phone"></i> +62 858 9412 8283</a>
                 </li>
               </ul>
               <!-- End Contact Info -->
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <!-- Start Social Links -->
               <ul class="social-list">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="https://web.facebook.com/educationsolutioncentre"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="#"><i class="fa fa-skype"></i></a>
+                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="https://www.instagram.com/educationsolutioncenter"><i class="fa fa-instagram"></i></a>
                 </li>
               </ul>
               <!-- End Social Links -->
@@ -245,7 +221,7 @@
                 <h3 class="animated3">
            <span>GUIDING YOU TO BRIGHT FUTURE</span>
        </h3>
-                <p class="animated4"><a href="#" class="slider btn btn-system btn-large">Check Now</a></p>
+                <p class="animated4"><a href="<?php echo base_url()?>Welcome/about" class="slider btn btn-system btn-large">More About Us</a></p>
               </div>
             </div>
           </div>
@@ -260,7 +236,7 @@
                 <h3 class="animated5">
      <span>The Key of your Success</span>
  </h3>
-                <p class="animated6"><a href="#" class="slider btn btn-system btn-large">Join Now</a></p>
+                <p class="animated6"><a href="<?php echo base_url()?>Welcome/registration_form" class="slider btn btn-system btn-large">Register Now</a></p>
               </div>
             </div>
           </div>
@@ -276,7 +252,7 @@
      <span>Why you are waiting</span>
  </h3>
                 <div class="">
-                  <a class="animated4 slider btn btn-system btn-large btn-min-block" href="#">Join Now</a><a class="animated4 slider btn btn-default btn-min-block" href="#">Live Demo</a>
+                  <a class="animated4 slider btn btn-system btn-large btn-min-block" href="<?php echo base_url()?>Welcome/registration_form">Register Now</a>
                 </div>
               </div>
             </div>
@@ -418,11 +394,11 @@
                 <!-- Toggle Heading -->
                 <div class="panel-heading">
                   <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-one">
-            <i class="icon-down-open-1 control-icon"></i>
-            <i class="icon-laptop-1"></i> Harga Terjangkau
-        </a>
-    </h4>
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-one">
+                          <i class="icon-down-open-1 control-icon"></i>
+                          <i class="icon-laptop-1"></i> Harga Terjangkau
+                      </a>
+                  </h4>
                 </div>
                 <!-- Toggle Content -->
                 <div id="collapse-one" class="panel-collapse collapse in">
@@ -436,14 +412,14 @@
                 <!-- Toggle Heading -->
                 <div class="panel-heading">
                   <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tow" class="collapsed">
-         <i class="icon-down-open-1 control-icon"></i>
-         <i class="icon-gift-1"></i> Tutor Terbaik
-     </a>
- </h4>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-two" class="collapsed">
+                           <i class="icon-down-open-1 control-icon"></i>
+                           <i class="icon-gift-1"></i> Tutor Terbaik
+                       </a>
+                  </h4>
                 </div>
                 <!-- Toggle Content -->
-                <div id="collapse-tow" class="panel-collapse collapse">
+                <div id="collapse-two" class="panel-collapse collapse">
                   <div class="panel-body">Pengajar adalah mahasiswa/i alumni PTN/PTS terbaik di bidangnya</div>
                 </div>
               </div>
@@ -454,11 +430,11 @@
                 <!-- Toggle Heading -->
                 <div class="panel-heading">
                   <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-three" class="collapsed">
-          <i class="icon-down-open-1 control-icon"></i>
-          <i class="icon-tint"></i> Waktu Belajar fleksible
-      </a>
-  </h4>
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-three" class="collapsed">
+                        <i class="icon-down-open-1 control-icon"></i>
+                        <i class="icon-tint"></i> Waktu Belajar fleksible
+                      </a>
+                  </h4>
                 </div>
                 <!-- Toggle Content -->
                 <div id="collapse-three" class="panel-collapse collapse">
@@ -467,8 +443,42 @@
               </div>
               <!-- End Accordion 3 -->
 
-            </div>
+              <!-- Start Accordion 4 -->
+              <div class="panel panel-default">
+                <!-- Toggle Heading -->
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-four" class="collapsed">
+                      <i class="icon-down-open-1 control-icon"></i>
+                      <i class="icon-laptop-1"></i> Modul Pengajaran
+                    </a>
+                </h4>
+                </div>
+                <!-- Toggle Content -->
+                <div id="collapse-four" class="panel-collapse collapse">
+                  <div class="panel-body">Disediakan Modul Pengajaran gratis</div>
+                </div>
+              </div>
+              <!-- End Accordion 4 -->
 
+              <!-- Start Accordion 5 -->
+              <div class="panel panel-default">
+                <!-- Toggle Heading -->
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-five" class="collapsed">
+                      <i class="icon-down-open-1 control-icon"></i>
+                      <i class="icon-laptop-1"></i> Tryout dan Evaluasi Pengajaran
+                    </a>
+                </h4>
+                </div>
+                <!-- Toggle Content -->
+                <div id="collapse-five" class="panel-collapse collapse">
+                  <div class="panel-body">Tryout berkala dan laporan evaluasi pengejaran setiap minggu ke orang tua murid</div>
+                </div>
+              </div>
+              <!-- End Accordion 5 -->
+            </div>
           </div>
 
           <div class="col-md-4">
@@ -573,170 +583,12 @@
     <!-- Start Footer -->
     <footer>
       <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
-              <form class="subscribe">
-                <input type="text" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-
-          <!-- Start Twitter Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget twitter-widget">
-              <h4>Twitter Feed<span class="head-line"></span></h4>
-              <ul>
-                <li>
-                  <p><a href="#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                  <span>28 February 2014</span>
-                </li>
-                <li>
-                  <p><a href="#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
-                  <span>26 February 2014</span>
-                </li>
-                <li>
-                  <p><a href="#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                  <span>28 February 2014</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Twitter Widget -->
-
-
-          <!-- Start Flickr Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget flickr-widget">
-              <h4>Flicker Feed<span class="head-line"></span></h4>
-              <ul class="flickr-list">
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-01.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-01.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-02.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-02.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-03.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-03.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-04.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-04.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-05.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-05.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-06.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-06.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-07.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-07.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-08.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-08.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url()?>assets/images/flickr-09.jpg" class="lightbox">
-                    <img alt="" src="<?php echo base_url()?>assets/images/flickr-09.jpg">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Flickr Widget -->
-
-
-          <!-- Start Contact Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget contact-widget">
-              <h4><img src="<?php echo base_url()?>assets/images/footer-logo.png" height="142" width="142" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              <ul>
-                <li><span>Phone Number:</span> +01 234 567 890</li>
-                <li><span>Email:</span> company@company.com</li>
-                <li><span>Website:</span> www.yourdomain.com</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
 
         <!-- Start Copyright -->
         <div class="copyright-section">
           <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2014 Margo - All Rights Reserved <a href="http://graygrids.com">GrayGrids</a> </p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+            <div class="col-md-12">
+              <center><p>&copy; 2017 EDUCATION SOLUTION CENTER - ALL RIGHTS RESERVED</a> </p></center>
             </div>
           </div>
         </div>
