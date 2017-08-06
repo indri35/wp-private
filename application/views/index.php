@@ -362,7 +362,7 @@
             <div class="tab-content">
               <!-- Tab Content 1 -->
               <div class="tab-pane fade in active" id="tab1">
-                <p>Education Solution Center (ESC) hadir di tengah-tengah masyarakat Bandung, Cimahi, Jatinangor, dan sekitarnya sebagai bentuk peduli terhadap peningkatan pola pembelajaran siswa yang aktif, kreatif, efektif, dan menyenangkan dalam upaya mencerdakan anak bangsa.</p>
+                <p>Education Solution Center (ESC) hadir di tengah-tengah masyarakat Bandung, Cimahi, Jatinangor, dan sekitarnya. ESC dibentuk sebagai bentuk kontribusi dan kepedulian terhadap peningkatan pendidikan dan pola pembelajaran siswa yang aktif, kreatif, efektif, dan menyenangkan dalam upaya mencerdaskan anak bangsa dan mendukung pembangunan sumber daya manusia Indonesia yang berkualitas.</p>
               </div>
               <!-- Tab Content 2 -->
               <div class="tab-pane fade" id="tab2">
@@ -474,7 +474,7 @@
                 </div>
                 <!-- Toggle Content -->
                 <div id="collapse-five" class="panel-collapse collapse">
-                  <div class="panel-body">Tryout berkala dan laporan evaluasi pengejaran setiap minggu ke orang tua murid</div>
+                  <div class="panel-body">Tryout berkala dan laporan evaluasi pengajaran setiap minggu ke orang tua murid</div>
                 </div>
               </div>
               <!-- End Accordion 5 -->
