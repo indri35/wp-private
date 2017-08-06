@@ -227,6 +227,7 @@
           <div class="row">
 
             <div class="col-md-7">
+              <img src="<?php echo base_url()?>assets/images/footer-logo.png" width="100" height="100" style="margin-bottom:15px;"/>
 
               <!-- Classic Heading -->
               <h4 class="classic-title"><span>GUIDING YOU TO BRIGHT FUTURE</span></h4>

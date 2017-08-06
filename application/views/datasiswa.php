@@ -6,7 +6,7 @@
 <head>
 
   <!-- Basic -->
-  <title>ESC | Contact</title>
+  <title>ESC | Data Siswa</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
