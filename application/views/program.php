@@ -179,7 +179,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
             </ul>
@@ -205,7 +205,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
         </ul>
@@ -251,139 +251,139 @@
               <h4 class="classic-title"><span>Program Reguler</span></h4>
 
               <!-- Some Text -->
-              <table border="1" cellpadding="0" cellspacing="0" style="width:643px">
+              <center><table border="1" cellpadding="0" cellspacing="5">
                     <tbody>
                         <tr>
-                            <td rowspan="3" style="width:151px">
-                            <p><strong>Siswa</strong></p>
+                            <td align="center" rowspan="3" style="width:150px">
+                            <strong>Siswa</strong>
                             </td>
-                            <td rowspan="3" style="width:198px">
-                            <p><strong>Mata Pelajaran</strong></p>
+                            <td align="center" rowspan="3" style="width:250px">
+                            <strong>Mata Pelajaran</strong>
                             </td>
-                            <td colspan="3" style="width:294px">
-                            <p><strong>Program Reguler</strong></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" style="width:294px">
-                            <p><strong>Biaya Setiap Pertemuan (90 menit)</strong></p>
+                            <td align="center" colspan="3" style="width:300px">
+                            <strong>Program Reguler</strong>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:96px">
-                            <p><strong>1 orang</strong></p>
-                            </td>
-                            <td style="width:102px">
-                            <p><strong>2 orang</strong></p>
-                            </td>
-                            <td style="width:96px">
-                            <p><strong>3 - 5 orang</strong></p>
+                            <td align="center" colspan="3">
+                            <strong>Biaya Setiap Pertemuan (90 menit)</strong>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:151px">
-                            <p>TK/PAUD</p>
+                            <td align="center" style="width:100px">
+                            <strong>1 orang</strong>
                             </td>
-                            <td style="width:198px">
-                            <p>Calistung, Baca Tulis Al-Qur&rsquo;an</p>
+                            <td align="center" style="width:100px">
+                            <strong>2 orang</strong>
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 55.000</p>
-                            </td>
-                            <td style="width:102px">
-                            <p>Rp 80.0000</p>
-                            </td>
-                            <td style="width:96px">
-                            <p>Rp 110.000</p>
+                            <td align="center" style="width:100px">
+                            <strong>3 - 5 orang</strong>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:151px">
-                            <p>SD kelas 1-6</p>
+                            <td>
+                            &nbsp;TK/PAUD
                             </td>
-                            <td style="width:198px">
-                            <p>Semua Pelajaran</p>
+                            <td>
+                            &nbsp;Calistung, Baca Tulis Al-Qur&rsquo;an
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 65.000</p>
+                            <td>
+                            &nbsp;Rp 55.000
                             </td>
-                            <td style="width:102px">
-                            <p>Rp 90.000</p>
+                            <td>
+                            &nbsp;Rp 80.0000
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 120.000</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:151px">
-                            <p>SMP Kelas 7-9</p>
-                            </td>
-                            <td style="width:198px">
-                            <p>Semua Pelajaran</p>
-                            </td>
-                            <td style="width:96px">
-                            <p>Rp 75.000</p>
-                            </td>
-                            <td style="width:102px">
-                            <p>Rp 100.000</p>
-                            </td>
-                            <td style="width:96px">
-                            <p>Rp 130.000</p>
+                            <td>
+                            &nbsp;Rp 110.000
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:151px">
-                            <p>SMA Kelas 10-11</p>
+                            <td>
+                            &nbsp;SD kelas 1-6
                             </td>
-                            <td style="width:198px">
-                            <p>Semua Pelajaran</p>
+                            <td>
+                            &nbsp;Semua Pelajaran
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 85.000</p>
+                            <td>
+                            &nbsp;Rp 65.000
                             </td>
-                            <td style="width:102px">
-                            <p>Rp 110.000</p>
+                            <td>
+                            &nbsp;Rp 90.000
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 140.000</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:151px">
-                            <p>SMA Kelas 12</p>
-                            </td>
-                            <td style="width:198px">
-                            <p>Semua Pelajaran</p>
-                            </td>
-                            <td style="width:96px">
-                            <p>Rp 95.000</p>
-                            </td>
-                            <td style="width:102px">
-                            <p>Rp 120.000</p>
-                            </td>
-                            <td style="width:96px">
-                            <p>Rp 150.000</p>
+                            <td>
+                            &nbsp;Rp 120.000
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:151px">
-                            <p>Alumni SMA</p>
+                            <td>
+                            &nbsp;SMP Kelas 7-9
                             </td>
-                            <td style="width:198px">
-                            <p>Persiapan SBMPTN</p>
+                            <td>
+                            &nbsp;Semua Pelajaran
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 110.000</p>
+                            <td>
+                            &nbsp;Rp 75.000
                             </td>
-                            <td style="width:102px">
-                            <p>Rp 140.000</p>
+                            <td>
+                            &nbsp;Rp 100.000
                             </td>
-                            <td style="width:96px">
-                            <p>Rp 180.000</p>
+                            <td>
+                            &nbsp;Rp 130.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            &nbsp;SMA Kelas 10-11
+                            </td>
+                            <td>
+                            &nbsp;Semua Pelajaran
+                            </td>
+                            <td>
+                            &nbsp;Rp 85.000
+                            </td>
+                            <td>
+                            &nbsp;Rp 110.000
+                            </td>
+                            <td>
+                            &nbsp;Rp 140.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            &nbsp;SMA Kelas 12
+                            </td>
+                            <td>
+                            &nbsp;Semua Pelajaran
+                            </td>
+                            <td>
+                            &nbsp;Rp 95.000
+                            </td>
+                            <td>
+                            &nbsp;Rp 120.000
+                            </td>
+                            <td>
+                            &nbsp;Rp 150.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            &nbsp;Alumni SMA
+                            </td>
+                            <td>
+                            &nbsp;Persiapan SBMPTN
+                            </td>
+                            <td>
+                            &nbsp;Rp 110.000
+                            </td>
+                            <td>
+                            &nbsp;Rp 140.000
+                            </td>
+                            <td>
+                            &nbsp;Rp 180.000
                             </td>
                         </tr>
                     </tbody>
-                </table>
+                </table></center>
 
                 <p>&nbsp;</p>
 

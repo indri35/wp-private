@@ -180,7 +180,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a class="active" href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
             </ul>
@@ -206,7 +206,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a class="active" href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
         </ul>

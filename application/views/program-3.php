@@ -179,7 +179,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
             </ul>
@@ -205,7 +205,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
         </ul>
@@ -251,111 +251,108 @@
               <h4 class="classic-title"><span>Program Intensif UN/SBMPTN</span></h4>
 
               <!-- Some Text -->
-              <table border="1" cellpadding="0" cellspacing="0" style="width:666px">
+              <center><table border="1" cellpadding="0" cellspacing="0">
                         <tbody>
                             <tr>
-                                <td rowspan="3" style="width:132px">
-                                <p><strong>Tingkatan Sekolah</strong></p>
+                                <td align="center" rowspan="3" style="width:200px">
+                                <strong>Tingkatan Sekolah</strong>
                                 </td>
-                                <td rowspan="3" style="width:168px">
-                                <p><strong>Mata Pelajaran</strong></p>
+                                <td align="center" rowspan="3" style="width:200px">
+                                <strong>Mata Pelajaran</strong>
                                 </td>
-                                <td colspan="3" style="width:366px">
-                                <p><strong>Program Intensif UN/SBMPTN</strong></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3" style="width:366px">
-                                <p><strong>Durasi 90 menit</strong></p>
+                                <td align="center" colspan="3" style="width:450px">
+                                <strong>Program Intensif UN/SBMPTN</strong>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="width:126px">
-                                <p><strong>Paket Silver</strong></p>
-
-                                <p><strong>(24x Pertemuan)</strong></p>
-                                </td>
-                                <td style="width:120px">
-                                <p><strong>Paket Gold</strong></p>
-
-                                <p><strong>(36x pertemuan)</strong></p>
-                                </td>
-                                <td style="width:120px">
-                                <p><strong>Paket Platinum</strong></p>
-
-                                <p><strong>(48x pertemuan)</strong></p>
+                                <td align="center" colspan="3" style="width:450px">
+                                <strong>Durasi 90 menit</strong>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="width:132px">
-                                <p>SD kelas 6</p>
+                                <td align="center" style="width:150px">
+                                <strong>Paket Silver</strong><br/>
+                                <strong>(24x Pertemuan)</strong>
                                 </td>
-                                <td style="width:168px">
-                                <p>Semua Pelajaran</p>
+                                <td align="center" style="width:150px">
+                                <strong>Paket Gold</strong><br/>
+                                <strong>(36x pertemuan)</strong>
                                 </td>
-                                <td style="width:126px">
-                                <p>Rp 2.390.000</p>
-                                </td>
-                                <td style="width:120px">
-                                <p>Rp 2.910.000</p>
-                                </td>
-                                <td style="width:120px">
-                                <p>Rp 3.950.000</p>
+                                <td align="center" style="width:150px">
+                                <strong>Paket Platinum</strong><br/>
+                                <strong>(48x pertemuan)</strong>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="width:132px">
-                                <p>SMP Kelas 9</p>
+                                <td>
+                                &nbsp;SD kelas 6
                                 </td>
-                                <td style="width:168px">
-                                <p>Semua Pelajaran</p>
+                                <td>
+                                &nbsp;Semua Pelajaran
                                 </td>
-                                <td style="width:126px">
-                                <p>Rp 2.800.000</p>
+                                <td>
+                                &nbsp;Rp 2.390.000
                                 </td>
-                                <td style="width:120px">
-                                <p>Rp 3.400.000</p>
+                                <td>
+                                &nbsp;Rp 2.910.000
                                 </td>
-                                <td style="width:120px">
-                                <p>Rp 4.600.000</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="width:132px">
-                                <p>SMA Kelas 12</p>
-                                </td>
-                                <td style="width:168px">
-                                <p>Semua Pelajaran</p>
-                                </td>
-                                <td style="width:126px">
-                                <p>Rp 3.770.000</p>
-                                </td>
-                                <td style="width:120px">
-                                <p>Rp 4.530.000</p>
-                                </td>
-                                <td style="width:120px">
-                                <p>Rp 6.050.000</p>
+                                <td>
+                                &nbsp;Rp 3.950.000
                                 </td>
                             </tr>
                             <tr>
-                                <td style="width:132px">
-                                <p>Alumni SMA</p>
+                                <td>
+                                &nbsp;SMP Kelas 9
                                 </td>
-                                <td style="width:168px">
-                                <p>Semua Pelajaran</p>
+                                <td>
+                                &nbsp;Semua Pelajaran
                                 </td>
-                                <td style="width:126px">
-                                <p>Rp 4.130.000</p>
+                                <td>
+                                &nbsp;Rp 2.800.000
                                 </td>
-                                <td style="width:120px">
-                                <p>Rp 5.010.000</p>
+                                <td>
+                                &nbsp;Rp 3.400.000
                                 </td>
-                                <td style="width:120px">
-                                <p>Rp 6.770.000</p>
+                                <td>
+                                &nbsp;Rp 4.600.000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                &nbsp;SMA Kelas 12
+                                </td>
+                                <td>
+                                &nbsp;Semua Pelajaran
+                                </td>
+                                <td>
+                                &nbsp;Rp 3.770.000
+                                </td>
+                                <td>
+                                &nbsp;Rp 4.530.000
+                                </td>
+                                <td>
+                                &nbsp;Rp 6.050.000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                &nbsp;Alumni SMA
+                                </td>
+                                <td>
+                                &nbsp;Semua Pelajaran
+                                </td>
+                                <td>
+                                &nbsp;Rp 4.130.000
+                                </td>
+                                <td>
+                                &nbsp;Rp 5.010.000
+                                </td>
+                                <td>
+                                &nbsp;Rp 6.770.000
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></center>
 
                     <p>&nbsp;</p>
 

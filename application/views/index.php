@@ -180,7 +180,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
             </ul>
@@ -206,7 +206,7 @@
                 </ul>
               </li>
               <li>
-                <a href="portfolio-3.html">Registration</a>
+                <a href="<?php echo base_url()?>Welcome/registration">Registration</a>
               </li>
               <li><a href="<?php echo base_url()?>Welcome/contact">Contact</a></li>
         </ul>
@@ -377,30 +377,29 @@
 
             <!-- Nav Tabs -->
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-award-1"></i>Shortcodes</a></li>
-              <li><a href="#tab2" data-toggle="tab"><i class="icon-beaker"></i>Sliders</a></li>
-              <li><a href="#tab3" data-toggle="tab"><i class="icon-droplet"></i>Retina</a></li>
+              <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-award-1"></i>ESC</a></li>
+              <li><a href="#tab2" data-toggle="tab"><i class="icon-beaker"></i>Visi</a></li>
+              <li><a href="#tab3" data-toggle="tab"><i class="icon-droplet"></i>Misi</a></li>
             </ul>
 
             <!-- Tab Panels -->
             <div class="tab-content">
               <!-- Tab Content 1 -->
               <div class="tab-pane fade in active" id="tab1">
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <ul class="icons-list">
-                  <li><i class="icon-check-2"></i> Duis aute irure dolor in reprehenderit voluptate.</li>
-                  <li><i class="icon-check-2"></i> Lorem Ipsum is simply dummy text of printing.</li>
-                  <li><i class="icon-check-2"></i> Excepteur sint occaecat cupidatat proident.</li>
-                  <li><i class="icon-check-2"></i> Sed ut perspiciatis unde omnis iste natus.</li>
-                </ul>
+                <p>Education Solution Center (ESC) hadir di tengah-tengah masyarakat Bandung, Cimahi, Jatinangor, dan sekitarnya sebagai bentuk peduli terhadap peningkatan pola pembelajaran siswa yang aktif, kreatif, efektif, dan menyenangkan dalam upaya mencerdakan anak bangsa.</p>
               </div>
               <!-- Tab Content 2 -->
               <div class="tab-pane fade" id="tab2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor laudantium, totam rem aperiam, eaque ipsa quae inventore.</p>
+                <p>Menjadi pusat lembaga bimbingan belajar privat terdepan dan terpercaya dalam upaya membantu mencerdaskan anak bangsa dengan mengedapankan kualitas layanan prima.</p>
               </div>
               <!-- Tab Content 1 -->
               <div class="tab-pane fade" id="tab3">
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam laboris nisi ut aliquip commodo.</p>
+                <p>
+                  1.  Menyelenggarakan program les privat sesuai kemampuan dan kebutuhan siswa.<br/>
+                  2.  Menyediakan tutor les privat yang berkompeten, berkualitas, dan berpengalaman dibidangnya.<br/>
+                  3.  Memfasilitasi siswa mengenali bakat dan minat untuk mencapai impian.<br/>
+                  <a href="<?php echo base_url()?>Welcome/about">read more</a>
+                </p>
               </div>
             </div>
 
@@ -421,13 +420,13 @@
                   <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse-one">
             <i class="icon-down-open-1 control-icon"></i>
-            <i class="icon-laptop-1"></i> Fully Responsive Theme
+            <i class="icon-laptop-1"></i> Harga Terjangkau
         </a>
     </h4>
                 </div>
                 <!-- Toggle Content -->
                 <div id="collapse-one" class="panel-collapse collapse in">
-                  <div class="panel-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                  <div class="panel-body">Mulai dari Rp 55.000* </div>
                 </div>
               </div>
               <!-- End Accordion 1 -->
@@ -439,13 +438,13 @@
                   <h4 class="panel-title">
       <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tow" class="collapsed">
          <i class="icon-down-open-1 control-icon"></i>
-         <i class="icon-gift-1"></i> Touchable Slider
+         <i class="icon-gift-1"></i> Tutor Terbaik
      </a>
  </h4>
                 </div>
                 <!-- Toggle Content -->
                 <div id="collapse-tow" class="panel-collapse collapse">
-                  <div class="panel-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. The point of using Lorem Ipsum is that it has a <strong>more-or-less</strong> normal distribution of letters.</div>
+                  <div class="panel-body">Pengajar adalah mahasiswa/i alumni PTN/PTS terbaik di bidangnya</div>
                 </div>
               </div>
               <!-- End Accordion 2 -->
@@ -457,13 +456,13 @@
                   <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-three" class="collapsed">
           <i class="icon-down-open-1 control-icon"></i>
-          <i class="icon-tint"></i> Retina Ready
+          <i class="icon-tint"></i> Waktu Belajar fleksible
       </a>
   </h4>
                 </div>
                 <!-- Toggle Content -->
                 <div id="collapse-three" class="panel-collapse collapse">
-                  <div class="panel-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                  <div class="panel-body">Pengajar dapat datang kerumah</div>
                 </div>
               </div>
               <!-- End Accordion 3 -->
@@ -488,50 +487,74 @@
             <div class="our-clients">
 
               <!-- Classic Heading -->
-              <h4 class="classic-title"><span>Our Alumni</span></h4>
+              <h4 class="classic-title"><span>Our Tutor</span></h4>
 
-              <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="4">
+              <div class="custom-carousel touch-carousel" data-appeared-items="4">
 
                 <!-- Client 1 -->
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c1.png" alt="" /></a>
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Ananda Ganesha Maaruf_Sastra Inggris_STBA Yapari ABA Bandung.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Ananda Ganesha</span></b>
+                    <p class="body">Sastra Inggris<br/>STBA Yapari ABA Bandung</p></center>
+                  </div>
                 </div>
-
-                <!-- Client 2 -->
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c2.png" alt="" /></a>
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Anis Octafila_jurusan Agroteknologi_Fakultas Pertanian_Universitas Jenderal Soedirman.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Anis Octafila</span></b>
+                    <p class="body">Agroteknologi<br/>Unsoed</p></center>
+                  </div>
                 </div>
-
-                <!-- Client 3 -->
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c3.png" alt="" /></a>
-                </div>
-
-                <!-- Client 4 -->
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Annisa Innal Fitri_Ilmu Pemerintahan_Fakultas FISIP_Unpad.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Annisa Innal Fitri</span></b>
+                    <p class="body">Ilmu Pemerintahan<br/>Unpad</p></center>
+                  </div>
+                </div>  
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c4.png" alt="" /></a>
-                </div>
-
-                <!-- Client 5 -->
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Cahyadi_jurusan Matematika_fakultas sains Dan Matematika_Universitas Diponegoro.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Cahyadi</span></b>
+                    <p class="body">Matematika<br/>Undip</p></center>
+                  </div>
+                </div> 
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c5.png" alt="" /></a>
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Dian Kartika Ratniningsih_Manajemen Keuangan_Fakultas Ekonomi_Universitas  Universitas Semarang.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Dian Kartika R</span></b>
+                    <p class="body">Manajemen Keuangan<br/>UNS</p></center>
+                  </div>
                 </div>
-
-                <!-- Client 6 -->
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c6.png" alt="" /></a>
-                </div>
-
-                <!-- Client 7 -->
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Halleina Rejeki Putri Hartono_Magister Akuntansi_Fakultas Ekonomika dan Bisnis_Universitas Gadjah Mada..jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Halleina Rejeki P</span></b>
+                    <p class="body">Magister Akutansi<br/>UGM</p></center>
+                  </div>
+                </div> 
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c7.png" alt="" /></a>
-                </div>
-
-                <!-- Client 8 -->
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/nurul anisa_jurusan manajemen_fakultas ekonomi dan bisnis_universitas pasundan.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Nurul Anisa</span></b>
+                    <p class="body">Manajemen<br/>Universitas Pasundan</p></center>
+                  </div>
+                </div> 
                 <div class="client-item item">
-                  <a href="#"><img src="<?php echo base_url()?>assets/images/c8.png" alt="" /></a>
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Putri Fithriyah_Pendidikan Akuntansi_Fakultas Pendidikan Ekonomi dan Bisnis_Universitas Pendidikan Indonesia.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Putri Fithriyah</span></b>
+                    <p class="body">Akutansi<br/>UPI</p></center>
+                  </div>
                 </div>
-
+                <div class="client-item item">
+                  <a href="#"><img src="<?php echo base_url()?>assets/images/team/Yani yuliani_jurusan Biologi_fakultas Biologi_universitas Jenderal Soedirman.jpeg" height="200" width="200"alt="" /></a>
+                  <div class="portfolio-item-content">
+                    <center><b><span class="header">Yani Yuliani</span></b>
+                    <p class="body">Biologi<br/>UNSOED</p></center>
+                  </div>
+                </div>                
               </div>
             </div>
             <!--End Clients Carousel-->
