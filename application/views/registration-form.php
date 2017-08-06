@@ -223,12 +223,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>Registration</h2>
+            <h2>Registration Form</h2>
           </div>
           <div class="col-md-6">
             <ul class="breadcrumbs">
               <li><a href="<?php echo base_url()?>assets/#">Home</a></li>
-              <li>Registration</li>
+              <li>Registration Form</li>
             </ul>
           </div>
         </div>
@@ -246,30 +246,83 @@
           <div class="row">
 
             <div class="col-md-12">
-            	    <h3>Registration</h3>
-			<hr>
-			<div class="col-md-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<p>Pendaftaran Les Privat</p>
-
-				<p>Pendaftaran <strong>Lembaga Bimibingan Belajar Privat Education Solution Center (ESC) </strong>dapat dilakukan dengan dengan memilih salah satu cara sebagai berikut :</p>
-
-				<p>1. Hubungicustomer service kami langsung melalui SMS/Chat berikut ini:</p>
-
-				<p>Whatsapp&nbsp;: 085894128283</p>
-
-				<p>Dengan format : Nama Siswa_Nama Orang Tua Siswa_No HP_Asal Sekolah_Kelas_Jadwal Les Privat_Alamat Les Privat.</p>
-
-				<p>Atau</p>
-
-				<p>Dengan format : Nama Siswa_Nama Orang Tua Siswa_Nama Program.</p>
-
-				<p>2. Mengisi form pendaftaran online berikut:</p>
-
-				<p>Klik di :<a href="<?php echo base_url()?>Welcome/registration_form"><strong> <em>Formulir Pendaftaran Online</em> </strong></a></p>
-
-				<p>3. Tutor pilihan akan kami kirim ke rumah siswa 1-3 hari kerja setelah data/formulir pendaftaran masuk ke dalam sistem dan membayar uang pendaftaran via transfer/cash.</p>
-
-				</div>         
+            	    <h3>Registration Form</h3>
+			     <hr>
+			       <?php echo form_open_multipart('Welcome/register');?>
+                      <div class="form-group form-horizontal">
+                        <label for="nama" class="control-label col-lg-3">Nama <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <input class=" form-control" name="nama" type="text" placeholder="Cth: M. Andi Rianto" required><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="nama" class="control-label col-lg-3">Tempat, tanggal lahir <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <input class=" form-control" name="ttl" type="text" placeholder="Cth: Jakarta, 3 Maret 2000" required><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="alamat" class="control-label col-lg-3">Jenis Kelamin <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <select class="form-control " name="jenis_kelamin"style="width: 100%;">
+                              <option>L</option>
+                              <option>P</option>
+                          </select><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="alamat" class="control-label col-lg-3">Agama <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <select class="form-control " name="agama"style="width: 100%;">
+                              <option>Islam</option>
+                              <option>Katolik</option>
+                              <option>Protestan</option>
+                              <option>Hindu</option>
+                              <option>Budha</option>
+                          </select><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="alamat" class="control-label col-lg-3">Alamat <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                            <textarea class=" form-control" name="alamat" type="text" placeholder="Cth: Komplek Jati Asih Blok 3 No 3" required></textarea><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="no_tlp" class="control-label col-lg-3">No. Tlp/HP <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <input class=" form-control" name="no_tlp" type="text" placeholder="Cth: 08128923901" required><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="email" class="control-label col-lg-3">Email <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <input class=" form-control" name="email" type="email" placeholder="Cth: andirianto@gmail.com" required>
+                          <?php echo form_error('email'); ?><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="asal_sekolah" class="control-label col-lg-3">Asal Sekolah <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                            <textarea class=" form-control" name="asal_sekolah" type="text" placeholder="Cth: SMA 16 Jakarta" required></textarea><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="kelas" class="control-label col-lg-3">Kelas <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <input class=" form-control" name="kelas" type="text" placeholder="1-12" required><br/>
+                        </div>
+                      </div>
+                      <div class="form-group form-horizontal">
+                        <label for="jadwal_les" class="control-label col-lg-3">Jadwal Les <font color="red">*</font></label>
+                        <div class="col-lg-9">
+                          <input class=" form-control" name="jadwal_les" type="text" placeholder="Cth: 10.00 - 12.00" required><br/>
+                        </div>
+                      </div>
+                      <div class="col-lg-offset-10 col-lg-2">
+                        <input type="submit" class="btn btn-primary" value="Register" name="simpan">
+                      </div>
+                  <?php echo form_close(); ?>
             </div>
 
           </div>
