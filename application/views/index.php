@@ -144,6 +144,9 @@
                 <a class="active" href="<?php echo base_url()?>Welcome/index">Home</a>
               </li>
               <li>
+                <a href="<?php echo base_url()?>Welcome/data">Data Siswa</a>
+              </li>
+              <li>
                 <a href="<?php echo base_url()?>Welcome/about">About</a>
               </li>
               <li>

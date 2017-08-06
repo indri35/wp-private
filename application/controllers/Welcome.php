@@ -41,6 +41,15 @@ class Welcome extends CI_Controller {
 		$this->load->view('contact');
 	}
 
+	public function data()
+	{		
+		$siswa =  $this->model_student->getStudents();
+		$data = array(	
+			'siswa' =>$siswa
+		);
+		$this->load->view('datasiswa',$data);
+	}
+
 	public function registration()
 	{
 		$this->load->view('registration');
