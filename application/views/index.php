@@ -218,12 +218,12 @@
             <img class="img-responsive" src="<?php echo base_url()?>assets/images/slider/bg1.jpg" alt="slider">
             <div class="slider-content">
               <div class="col-md-12 text-center" >
-                <h2 class="animated2">
-              <span>Welcome to <strong>ESC</strong></span>
-          </h2>
-                <h3 class="animated3">
-           <span>GUIDING YOU TO BRIGHT FUTURE</span>
-       </h3>
+                <h2 class="animated7">
+                  <span>Welcome to <strong>ESC</strong></span>
+                </h2>
+                <h3 class="animated3 white">
+                  <span>GUIDING YOU TO BRIGHT FUTURE</span>
+              </h3>
                 <p class="animated4"><a href="<?php echo base_url()?>Welcome/about" class="slider btn btn-system btn-large">More About Us</a></p>
               </div>
             </div>
@@ -233,12 +233,12 @@
             <img class="img-responsive" src="<?php echo base_url()?>assets/images/slider/bg2.jpg" alt="slider">
             <div class="slider-content">
               <div class="col-md-12 text-center">
-                <h2 class="animated4">
-        <span><strong>ESC</strong> for the highest</span>
-    </h2>
-                <h3 class="animated5">
-     <span>The Key of your Success</span>
- </h3>
+                <h2 class="animated7">
+                      <span><strong>HARGA</strong>TERJANGKAU</span>
+                  </h2>
+                <h3 class="animated3 white">
+                  <span><strong>Harga</strong> Mulai dari <strong>RP 55.000*</strong></span>
+                </h3>
                 <p class="animated6"><a href="<?php echo base_url()?>Welcome/registration_form" class="slider btn btn-system btn-large">Register Now</a></p>
               </div>
             </div>
@@ -248,12 +248,12 @@
             <img class="img-responsive" src="<?php echo base_url()?>assets/images/slider/bg3.jpg" alt="slider">
             <div class="slider-content">
               <div class="col-md-12 text-center">
-                <h2 class="animated7 white">
-        <span>The way of <strong>Success</strong></span>
-    </h2>
-                <h3 class="animated8 white">
-     <span>Why you are waiting</span>
- </h3>
+                <h2 class="animated7">
+                  <span>FASILTAS<strong></strong>LENGKAP*</span>
+                </h2>
+                <h3 class="animated3 white">
+                    <span>Tersedia Modul, TryOut, dan Evaluasi Belajar</span>
+                </h3>
                 <div class="">
                   <a class="animated4 slider btn btn-system btn-large btn-min-block" href="<?php echo base_url()?>Welcome/registration_form">Register Now</a>
                 </div>
@@ -365,7 +365,7 @@
             <div class="tab-content">
               <!-- Tab Content 1 -->
               <div class="tab-pane fade in active" id="tab1">
-                <p>Education Solution Center (ESC) hadir di tengah-tengah masyarakat Bandung, Cimahi, Jatinangor, dan sekitarnya. ESC dibentuk sebagai bentuk kontribusi dan kepedulian terhadap peningkatan pendidikan dan pola pembelajaran siswa yang aktif, kreatif, efektif, dan menyenangkan dalam upaya mencerdaskan anak bangsa dan mendukung pembangunan sumber daya manusia Indonesia yang berkualitas.</p>
+                <p>Education Solution Center (ESC) merupakan lembaga les private yang hadir di tengah-tengah masyarakat Bandung, Cimahi, Jatinangor, dan sekitarnya. ESC dibentuk sebagai bentuk kontribusi dan kepedulian terhadap peningkatan pendidikan dan pola pembelajaran siswa yang aktif, kreatif, efektif, dan menyenangkan dalam upaya mencerdaskan anak bangsa dan mendukung pembangunan sumber daya manusia Indonesia yang berkualitas.</p>
               </div>
               <!-- Tab Content 2 -->
               <div class="tab-pane fade" id="tab2">
